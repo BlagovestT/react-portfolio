@@ -26,7 +26,7 @@ function Nav() {
 
   return (
     <header className={header}>
-      <h3>LOGO</h3>
+      <h3>BOGI</h3>
       <nav ref={navRef}>
         <a href='/#'>Home</a>
         <a href='/#about'>About Me</a>

@@ -38,7 +38,7 @@ const Contact = () => {
         <h5>Get In Touch</h5>
         <h1>Contact</h1>
       </div>
-      <div className='container' data-aos='fade-up' data-aos-delay='800'>
+      <div className='container' data-aos='fade-up' data-aos-delay='500'>
         <div className='contac_container'>
           <form ref={form} onSubmit={sendEmail}>
             <input
