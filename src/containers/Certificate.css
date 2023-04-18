@@ -1,0 +1,29 @@
+.certificate {
+    /* background: linear-gradient(to bottom, #f5f5f5, #7289da); */
+    /* background: var(--blue);
+    background-image: url('../assets/bg-texture.png'); */
+    background-image: url('../assets/certificate-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ 
+    
+}
+
+.certificate h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--primary-variant);
+    font-size: 60px;
+    font-weight: 800;
+}
+
+
+
+@media screen and (max-width: 1170px) {
+    .certificate .time-line {
+        justify-content: left;
+    }
+}

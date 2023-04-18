@@ -1,0 +1,72 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    background-color: var(--primary-variant);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    opacity: 70%;
+    transition: 250ms ease-in-out;
+  }
+
+  .button a {
+    color: var(--secondary);
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .button {
+      font-size: 15px;
+    }
+  
+  }
+  
+  
+    @media only screen and (max-width: 1200px) {
+      .button {
+        font-size: 14px;
+      }
+    
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .button {
+      font-size: 12px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 900px) {
+    .button {
+      font-size: 14px;
+    }
+
+  }
+
+  @media only screen and (max-width: 415px) {
+    .button {
+      font-size: 13px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 380px) {
+    .button {
+      font-size: 12.5px;
+    }
+  
+  }

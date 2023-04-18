@@ -1,0 +1,211 @@
+section {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url('../assets/contact-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section .contact-heading {
+    margin-bottom: 5rem;
+    padding: 1rem;
+}
+
+section .contact-heading h5,h1 {
+    text-align: center;
+}
+
+section h1 {
+    font-size: 60px;
+    color: var(--primary-variant);
+}
+
+section h5 {
+    font-size: 24px;
+    color: var(--primary-variant);
+}
+
+.container .contac_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--blue);
+    resize: none;
+    color: var(--withe);
+}
+
+.contact-btn {
+    width: 30%;
+    background-color: var(--primary-variant);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    opacity: 70%;
+    transition: 250ms ease-in-out;
+}
+
+.contact-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 6.2rem;
+}
+
+.contact-btn-linkedin {
+    padding: 1rem;
+    background-color: #0072b1;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    transition: 250ms; 
+  
+  }
+  
+  .contact-btn-linkedin:hover {
+    transform: scale(1.2); 
+  }
+  
+  .contact-btn-mail {
+    padding: 1rem;
+    background-color: var(--secondary);
+    border-radius: 50%; 
+    transform: translateY(70px);
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    
+    transition: 250ms; 
+  }
+  
+  .contact-btn-mail:hover {
+    transform: translateY(70px) scale(1.2);
+  }
+  
+  .contact-btn-mail a svg {
+    color: black;
+  }
+  
+  .contact-btn-git {
+    padding: 1rem;
+    background-color: #171515;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    transition: 250ms; 
+  
+  }
+  
+  .contact-btn-git:hover {
+    transform: scale(1.2);
+  }
+  
+  .contact-btn-insta {
+    padding: 1rem;
+    background-image: linear-gradient(to bottom right, 
+    rgb(254, 218, 117), 
+    rgb(250, 126, 30), 
+    rgb(214, 41, 118), 
+    rgb(150, 47, 191), 
+    rgb(79, 91, 213)
+  );
+    transform: translateY(70px);
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
+    transition: 250ms; 
+  }
+  
+  .contact-btn-insta:hover {
+    transform: translateY(70px) scale(1.2);
+    
+  }
+  
+  .contact-social svg {
+    font-size: 60px;
+    color: var(--secondary);
+  }
+
+  @media screen and (max-width: 1200px) {
+    .contact-social {
+        padding-top: 3rem;
+    }
+
+    .contact-social svg {
+        font-size: 42px;
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .contact-btn {
+        width: 50%;
+    }
+
+    .contact-social {
+        gap: 5.2rem;
+    }
+}
+
+  @media screen and (max-width: 576px) {
+
+    .contact-social {
+        gap: 4.2rem;
+    }
+
+    .contact-social svg {
+        font-size: 32px;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-social {
+        gap: 4rem;
+    }
+
+    .contact-social svg {
+        font-size: 30px;
+        
+    }
+
+    .contact-btn {
+        width: 65%;
+        font-size: 14px;
+    }
+
+}
