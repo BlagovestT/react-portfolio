@@ -34,11 +34,11 @@ const Contact = () => {
   };
   return (
     <section id='contact'>
-      <div className='contact-heading' data-aos='fade-up'>
+      <div className='contact-heading' data-aos='fade-down'>
         <h5>Get In Touch</h5>
         <h1>Contact</h1>
       </div>
-      <div className='container' data-aos='fade-up' data-aos-delay='500'>
+      <div className='container' data-aos='fade-down' data-aos-delay='500'>
         <div className='contac_container'>
           <form ref={form} onSubmit={sendEmail}>
             <input
@@ -65,11 +65,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <div
-          className='contact-social'
-          data-aos='fade-up'
-          data-aos-delay='1400'
-        >
+        <div className='contact-social'>
           <div className='contact-btn-linkedin'>
             <a href='https://github.com/BlagovestT' target='_blank'>
               <FaLinkedin />
@@ -77,7 +73,7 @@ const Contact = () => {
           </div>
 
           <div className='contact-btn-insta'>
-            <a href='#contact'>
+            <a href='https://www.instagram.com/bogi.101/' target='_blank'>
               <FaInstagram />
             </a>
           </div>

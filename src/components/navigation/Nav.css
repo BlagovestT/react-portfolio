@@ -121,7 +121,7 @@ nav {
 
 	header .responsive_nav {
 		transform: translateY(100vh);
-		
+		opacity: 90%;
 	}
 
 	nav .nav-close-btn {

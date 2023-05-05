@@ -12,8 +12,8 @@ const About = () => {
   return (
     <div className='about' id='about'>
       <div className='about-container'>
-        <h2 data-aos='fade-up'>Get To Know</h2>
-        <div className='about-cont' data-aos='fade-up' data-aos-delay='800'>
+        <h2 data-aos='fade-down'>Get To Know</h2>
+        <div className='about-cont' data-aos='fade-down' data-aos-delay='800'>
           <div className='img'>
             <div className='img-container'>
               <img src={img} alt='image' />
@@ -23,12 +23,13 @@ const About = () => {
           <div className='text-container'>
             <h4>About Me</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ab
-              itaque quidem. Illum perferendis consequatur quidem quibusdam
-              omnis cupiditate alias tempora fugiat, minima maiores repudiandae
-              ut fugit nihil! Delectus voluptatibus at aut suscipit, earum id
-              rerum aspernatur, animi esse odit asperiores! Tenetur veritatis
-              nobis, id magni tempore aut accusantium voluptate!
+              Student, 3rd year at VSU. "Chernorizets Hrabar" .I am a Front-End
+              Developer with a passion for learning and a strong focus on
+              delivering precise and high-quality results, a team player with
+              communication skills.I am a responsible and dedicated person,
+              committed to achieving my goals and contributing to the success of
+              my team. Experience in HTML, CSS, JavaScript and React. I am
+              familiar with Github and Figma.
             </p>
           </div>
         </div>

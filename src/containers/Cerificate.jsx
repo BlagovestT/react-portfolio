@@ -22,7 +22,6 @@ const Certificate = () => {
       <VerticalTimeline lineColor='#2c2f33'>
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='May 2022'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#ffa500' }}
           icon={<IoSchool />}
@@ -33,7 +32,6 @@ const Certificate = () => {
 
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='Sep 2022'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#ffa500' }}
           icon={<IoSchool />}
@@ -44,7 +42,6 @@ const Certificate = () => {
 
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='Jan 2023'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#0668E1' }}
           icon={<SiMeta />}
@@ -55,7 +52,6 @@ const Certificate = () => {
 
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='Feb 2023'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#0668E1' }}
           icon={<SiMeta />}
@@ -66,7 +62,6 @@ const Certificate = () => {
 
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='Mar 2023'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#0668E1' }}
           icon={<SiMeta />}
@@ -77,7 +72,6 @@ const Certificate = () => {
 
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='Mar 2023'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#0668E1' }}
           icon={<SiMeta />}
@@ -88,7 +82,6 @@ const Certificate = () => {
 
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='Apr 2023'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#0668E1' }}
           icon={<SiMeta />}
@@ -99,7 +92,6 @@ const Certificate = () => {
 
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='May 2023'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#0668E1' }}
           icon={<SiMeta />}
@@ -110,13 +102,22 @@ const Certificate = () => {
 
         <VerticalTimelineElement
           className='verical-timeline-element--education'
-          date='May 2023'
           contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
           iconStyle={{ background: '#2c2f33', color: '#0668E1' }}
           icon={<SiMeta />}
         >
           <h3 className='vertical-timeline-element-title'>Meta</h3>
           <p>Principles of UX/UI Design</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className='verical-timeline-element--education'
+          contentStyle={{ background: 'rgb(44, 47, 51)', color: '#fff' }}
+          iconStyle={{ background: '#2c2f33', color: '#0668E1' }}
+          icon={<SiMeta />}
+        >
+          <h3 className='vertical-timeline-element-title'>Meta</h3>
+          <p>Meta Front-End Developer</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
