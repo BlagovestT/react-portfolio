@@ -17,7 +17,7 @@ const Certificate = () => {
 
   return (
     <div className='certificate' id='certificate'>
-      <h2 data-aos='fade-down'>Certificate's</h2>
+      <h2 data-aos='fade-down'>Certificates</h2>
 
       <VerticalTimeline lineColor='#2c2f33'>
         <VerticalTimelineElement

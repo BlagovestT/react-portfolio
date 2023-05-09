@@ -30,7 +30,7 @@ function Nav() {
       <nav ref={navRef}>
         <a href='/#'>Home</a>
         <a href='/#about'>About Me</a>
-        <a href='/#certificate'>Certificate's</a>
+        <a href='/#certificate'>Certificates</a>
         <a href='/#projects'>Projects</a>
         <a href='/#contact'>Contact</a>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>

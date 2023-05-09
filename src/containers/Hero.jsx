@@ -24,7 +24,7 @@ const HeroCont = () => {
         </h1>
 
         <h5 class='animate__animated animate__lightSpeedInLeft animate__delay-2s'>
-          I'm Front-End Developer
+          I'm a Front-End Developer
         </h5>
 
         <CTA />
