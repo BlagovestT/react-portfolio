@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .about .about-container h2{
@@ -140,6 +141,7 @@
     .about .about-container .about-cont .img .img-container {
         width: 380px;
         height: 380px;
+        transform: none;
     }
 
     .about .about-container .about-cont .img-container img{

@@ -29,7 +29,7 @@ const HeroCont = () => {
 
         <CTA />
 
-        <div data-aos='fade-up' data-aos-delay='2500' className='social'>
+        <div data-aos='fade-up' data-aos-delay='2200' className='social'>
           <div className='social-btn-linkedin'>
             <a href='https://github.com/BlagovestT' target='_blank'>
               <FaLinkedin />
