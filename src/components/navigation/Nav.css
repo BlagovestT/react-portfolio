@@ -28,7 +28,7 @@ header h3 {
 
 .transperent nav a {
 	color: var(--primary-variant);
-	transition: 250ms;
+	transition: ease-in-out 250ms;
 }
 
 .header {
@@ -52,7 +52,8 @@ nav a {
 }
 
 .transperent nav a:hover {
-	color: #99aab5;
+	transform: scale(1.2);
+	transition: ease-in-out 250ms;
 }
 
 .transperent .nav-btn {

@@ -67,7 +67,10 @@ const Contact = () => {
 
         <div className='contact-social'>
           <div className='contact-btn-linkedin'>
-            <a href='https://github.com/BlagovestT' target='_blank'>
+            <a
+              href='https://www.linkedin.com/in/blagovest-todorov-13349122b/'
+              target='_blank'
+            >
               <FaLinkedin />
             </a>
           </div>

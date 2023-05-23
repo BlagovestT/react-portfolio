@@ -1,6 +1,8 @@
 .button-container {
     display: flex;
     justify-content: center;
+    gap: 1rem;
+    padding: 15px;
   }
   
   .button {
@@ -16,11 +18,12 @@
     font-size: 16px;
     margin: 4px;
     cursor: pointer;
+    transition: 250ms;
   }
 
   .button:hover {
-    opacity: 70%;
-    transition: 250ms ease-in-out;
+    animation: pulse 1s infinite;
+    transition: 250ms;
   }
 
   .button a {
