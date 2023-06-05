@@ -29,7 +29,7 @@ const Projects = () => {
 
         <ProjectItem
           name='Little Lemon'
-          url='https://github.com/BlagovestT/meta-final-project'
+          url='https://meta-final-project-brown.vercel.app/#'
           image={littleLemon}
         />
 
