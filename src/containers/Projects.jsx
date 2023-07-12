@@ -7,6 +7,7 @@ import todo from '../assets/todo.png';
 import calc from '../assets/calc.png';
 import fsm from '../assets/fsm.png';
 import parallax from '../assets/parallax.png';
+import devBlog from '../assets/devblog.png';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
@@ -28,9 +29,9 @@ const Projects = () => {
         />
 
         <ProjectItem
-          name='Little Lemon'
-          url='https://meta-final-project-brown.vercel.app/#'
-          image={littleLemon}
+          name='Dev Blog'
+          url='https://nextjs-blog-snowy-ten-29.vercel.app'
+          image={devBlog}
         />
 
         <ProjectItem
@@ -43,18 +44,6 @@ const Projects = () => {
           name='Calculator'
           url='https://my-react-calculator-five.vercel.app'
           image={calc}
-        />
-
-        <ProjectItem
-          name='HTML Site'
-          url='https://github.com/BlagovestT/FsM-Site'
-          image={fsm}
-        />
-
-        <ProjectItem
-          name='Parallax Page'
-          url='https://parallax-scrolling-web-site.vercel.app'
-          image={parallax}
         />
       </div>
     </div>
