@@ -5,6 +5,7 @@ import alenMak from '../assets/alen-mak.png';
 import todo from '../assets/todo.png';
 import calc from '../assets/calc.png';
 import devBlog from '../assets/devblog.png';
+import carHub from '../assets/car-hub.png';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
@@ -20,8 +21,15 @@ const Projects = () => {
       </h2>
       <div className='project-list' data-aos='fade-up' data-aos-delay='800'>
         <ProjectItem
+          name='CarHub'
+          description='Welcome to my cutting-edge demo Rent-a-Car website, built on Next.js with TypeScript and powered by Tailwind CSS. Leveraging the power of HeadlessUI and integrating data from Rapid API, I provide real-time access to a wide range of vehicles at competitive rates. Unfortunately, it turned out that the second API, which was supposed to be for the cars images, turned out to be paid and does not update the images of specific brands and models .'
+          url='https://car-hub-ihxh.vercel.app'
+          image={carHub}
+        />
+
+        <ProjectItem
           name='Alen Mak'
-          description='A hospice site written in React and JavaScript provides a user-friendly and interactive platform to convey essential information and services related to hospice care. By leveraging the power of React, a popular JavaScript library for building user interfaces, the site can deliver a seamless and responsive user experience.'
+          description='This is my hospice site written in React and JavaScript provides a user-friendly and interactive platform to convey essential information and services related to hospice care. By leveraging the power of React, a popular JavaScript library for building user interfaces, the site can deliver a seamless and responsive user experience.'
           url='https://alenmak-medical.com'
           image={alenMak}
         />
@@ -36,7 +44,7 @@ const Projects = () => {
         <ProjectItem
           name='Todo List'
           description='
-          A Todo list written in React and utilizing JavaScript functionality provides a dynamic and interactive interface for managing tasks and organizing your daily activities efficiently.'
+          My Todo list written in React and utilizing JavaScript functionality provides a dynamic and interactive interface for managing tasks and organizing your daily activities efficiently.'
           url='https://todo-list-30l7soudh-blagovestt.vercel.app'
           image={todo}
         />
