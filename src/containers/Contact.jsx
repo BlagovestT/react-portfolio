@@ -12,26 +12,27 @@ const Contact = () => {
 
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    e.target.reset();
-
-    emailjs
-      .sendForm(
-        'service_8zvltec',
-        'template_adv9wdr',
-        form.current,
-        'xgD0SlRoyYuvmEVd8'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   e.target.reset();
+  //   console.log(form.current);
+  //   return;
+  //   emailjs
+  //     .sendForm(
+  //       'service_8zvltec',
+  //       'template_adv9wdr',
+  //       form.current,
+  //       'xgD0SlRoyYuvmEVd8'
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     // );
+  // };
   return (
     <section id='contact'>
       <div className='contact-heading' data-aos='fade-down'>
@@ -40,7 +41,8 @@ const Contact = () => {
       </div>
       <div className='container' data-aos='fade-down' data-aos-delay='500'>
         <div className='contac_container'>
-          <form ref={form} onSubmit={sendEmail}>
+          <form action='https://formsubmit.co/bgmf1234@gmail.com' method='POST'>
+            <input type='hidden' name='_captcha' value='false' />
             <input
               type='text'
               name='name'
@@ -50,7 +52,7 @@ const Contact = () => {
             <input
               type='email'
               name='email'
-              placeholder='Your Email'
+              placeholder='Your email'
               required
             />
             <textarea
