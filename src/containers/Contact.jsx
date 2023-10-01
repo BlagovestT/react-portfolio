@@ -41,7 +41,10 @@ const Contact = () => {
       </div>
       <div className='container' data-aos='fade-down' data-aos-delay='500'>
         <div className='contac_container'>
-          <form action='https://formsubmit.co/bgmf1234@gmail.com' method='POST'>
+          <form
+            action='https://formsubmit.co/6c04b740566a9a6a2d5da8ff3a835a89'
+            method='POST'
+          >
             <input type='hidden' name='_captcha' value='false' />
             <input
               type='text'
