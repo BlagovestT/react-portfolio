@@ -6,6 +6,7 @@ import todo from '../assets/todo.png';
 import calc from '../assets/calc.png';
 import devBlog from '../assets/devblog.png';
 import carHub from '../assets/car-hub.png';
+import movieCatalog from '../assets/movie-catalog.png';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
@@ -32,6 +33,13 @@ const Projects = () => {
           description='This is my hospice site written in React and JavaScript provides a user-friendly and interactive platform to convey essential information and services related to hospice care. By leveraging the power of React, a popular JavaScript library for building user interfaces, the site can deliver a seamless and responsive user experience.'
           url='https://alenmak-medical.com'
           image={alenMak}
+        />
+
+        <ProjectItem
+          name='Dev Blog'
+          description="The Movie Catalog Project is a web application that allows users to explore and discover movies based on different categories. Users can add their favorite movies to a personalized favorites list and easily manage them. The project utilizes React for the front end, fetching movie data from an external API, and provides a seamless and engaging user experience. Whether you're a movie enthusiast or just looking for something new to watch, the Movie Catalog Project offers an intuitive interface to explore and curate your movie preferences."
+          url='https://movie-catalog-tau.vercel.app'
+          image={movieCatalog}
         />
 
         <ProjectItem
