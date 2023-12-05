@@ -36,8 +36,8 @@ const Projects = () => {
         />
 
         <ProjectItem
-          name='Dev Blog'
-          description="The Movie Catalog Project is a web application that allows users to explore and discover movies based on different categories. Users can add their favorite movies to a personalized favorites list and easily manage them. The project utilizes React for the front end, fetching movie data from an external API, and provides a seamless and engaging user experience. Whether you're a movie enthusiast or just looking for something new to watch, the Movie Catalog Project offers an intuitive interface to explore and curate your movie preferences."
+          name='Movie Catalog'
+          description='The Movie Catalog Project is a web application that allows users to explore and discover movies based on different categories. Users can add their favorite movies to a personalized favorites list and easily manage them. The project utilizes React for the front end, fetching movie data from an external API, and provides a seamless and engaging user experience.'
           url='https://movie-catalog-tau.vercel.app'
           image={movieCatalog}
         />
