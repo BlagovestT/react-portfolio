@@ -47,7 +47,7 @@ const About = () => {
           <div className='text-container'>
             <h4>About Me</h4>
             <p>
-              Student, 3rd year at VSU. "Chernorizets Hrabar" . I am a Front-End
+              Student, 4th year at VFU. "Chernorizets Hrabar" . I am a Front-End
               Developer with a passion for learning and a strong focus on
               delivering precise and high-quality results, a team player with
               communication skills. I am a responsible and dedicated person,
